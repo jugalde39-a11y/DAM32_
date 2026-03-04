@@ -1,9 +1,12 @@
-# Ignore everything
+# Ignore everything by default
 *
 
-# Allow these directories
-!F1LoginApp/
+# Allow the .gitignore itself
 !.gitignore
+
+# Allow F1LoginApp and all its contents
+!F1LoginApp/
+!F1LoginApp/**
 
 # Standard node/react-native ignores (sub-folders will have their own or we handle here)
 node_modules/
