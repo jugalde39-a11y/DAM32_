@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Allow these directories
+!F1LoginApp/
+!.gitignore
+
+# Standard node/react-native ignores (sub-folders will have their own or we handle here)
+node_modules/
+.expo/
+dist/
+build/
+*.log
+.DS_Store
