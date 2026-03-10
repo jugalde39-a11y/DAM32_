@@ -8,6 +8,10 @@
 !F1LoginApp/
 !F1LoginApp/**
 
+# Allow mood-counter and all its contents
+!mood-counter/
+!mood-counter/**
+
 # Standard node/react-native ignores (sub-folders will have their own or we handle here)
 node_modules/
 .expo/
