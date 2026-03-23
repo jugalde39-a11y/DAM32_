@@ -12,6 +12,10 @@
 !mood-counter/
 !mood-counter/**
 
+# Allow weather-simulator and all its contents
+!weather-simulator/
+!weather-simulator/**
+
 # Standard node/react-native ignores (sub-folders will have their own or we handle here)
 node_modules/
 .expo/
